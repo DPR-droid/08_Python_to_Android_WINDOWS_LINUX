@@ -20,7 +20,7 @@ class ConverterApp(MDApp):
         # Add top banner
         self.toolbar = MDToolbar(title="Binary to Decimal")
         self.toolbar.pos_hint = {"top": 1}
-        # Add icon to banner and add a function def flip(self)
+        # Add icon to banner and add a function
         # https://kivymd.readthedocs.io/en/latest/themes/icon-definitions/index.html
         self.toolbar.right_action_items = [
             ["rotate-3d", lambda x: self.flip()]]
